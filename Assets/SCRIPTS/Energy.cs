@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Energy : MonoBehaviour
+public class Energy : Card
 {
 
     public int energy_Gain;
@@ -17,6 +17,6 @@ public class Energy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        renderBack();
     }
 }
